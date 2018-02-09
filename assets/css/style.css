@@ -130,10 +130,16 @@
         border: #dddddd solid 1px;
     }
 
+    .middle:after {
+        content: "";
+        display: block;
+        height: 100px;
+}
+
     /* FOOTER */
 
     footer {
-        position: absolute;
+        position: absolute!important;
         background-color: #666666;
         bottom: 0;
         left: 0;
@@ -146,6 +152,10 @@
     footer p {
         font-size: 1.2em;
         line-height: 70px;
+    }
+
+    .relative {
+        position: relative;
     }
 
     /* IMAGE STYLES */
@@ -183,6 +193,11 @@
     input:focus,
     textarea:focus {
         border: #4aaaa5 solid 1px!important;
+    }
+
+    textarea {
+        min-height: 200px!important;
+        max-height: 300px;
     }
 
      ::placeholder {
@@ -365,7 +380,7 @@
             padding-right: 0px;
         }
         .sidebar {
-            margin-top: 30px!important;
+            margin-top: 50px!important;
         }
         img.float-left {
             float: none!important;
