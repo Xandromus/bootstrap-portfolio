@@ -359,7 +359,7 @@
         }
     }
 
-    @media screen and (max-width: 786px) {
+    @media screen and (max-width: 767px) {
         .col-sm-12 {
             padding-left: 0px;
             padding-right: 0px;
